@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,14 +9,49 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+[CV_Zihao-Ding.pdf](https://Darkhunter9.github.io/files/CV_Zihao-Ding.pdf)
 
-Work experience
-======
+# <center>Education</center>
+***
+- **B.S. in Materials Science and Engineering**
+
+    Shanghai Jiaotong University, 2013-2017
+
+- **M.S. in Materials Science and Engineering**
+
+    Carnegie Mellon University, 2016-2018
+
+- **M.S. in Machine Learning**
+
+    Carnegie Mellon University, 2020-2022 (expected)
+
+- **Ph.D in Materials Science and Engineering**
+
+    Carnegie Mellon University, 2018-2022 (expected)
+
+<br/>
+
+# <center>Skills</center>
+***
+* **Materials characterization**
+  * SEM, TEM, EBSD, FIB, EDS, AFM, XRD, Nanoindentation etc.
+  * Electrochemical test, organic coating, surface processing
+* **Programming**
+  * C/C++, Python, Fortran
+  * Tensorflow/Pytorch, CUDA/OpenCL
+  * High performance computing, Mysql
+* **Simulation**
+  * Ansys/COMSOL
+
+<br/>
+
+# <center>Research & Projects</center>
+***
+
+<br/>
+
+# <center>Work experience</center>
+***
 * Summer 2015: Research Assistant
   * Github University
   * Duties included: Tagging issues
@@ -27,14 +62,6 @@ Work experience
   * Duties included: Merging pull requests
   * Supervisor: Professor Hub
   
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
 Publications
 ======
