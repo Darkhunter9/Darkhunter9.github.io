@@ -13,21 +13,21 @@ redirect_from:
 
 # <center>Education</center>
 ***
-- **B.S. in Materials Science and Engineering**
+- **Ph.D in Materials Science and Engineering**
 
-    Shanghai Jiaotong University, 2013-2017
-
-- **M.S. in Materials Science and Engineering**
-
-    Carnegie Mellon University, 2016-2018
+    Carnegie Mellon University, 2018-2022 (expected)
 
 - **M.S. in Machine Learning**
 
     Carnegie Mellon University, 2020-2022 (expected)
 
-- **Ph.D in Materials Science and Engineering**
+- **M.S. in Materials Science and Engineering**
 
-    Carnegie Mellon University, 2018-2022 (expected)
+    Carnegie Mellon University, 2016-2018
+
+- **B.S. in Materials Science and Engineering**
+
+    Shanghai Jiaotong University, 2013-2017
 
 <br/>
 
@@ -39,7 +39,7 @@ redirect_from:
 * **Programming**
   * C/C++, Python, Fortran
   * Tensorflow/Pytorch, CUDA/OpenCL
-  * High performance computing, Mysql
+  * High performance computing, MySQL
 * **Simulation**
   * Ansys/COMSOL
 
@@ -47,40 +47,40 @@ redirect_from:
 
 # <center>Research & Projects</center>
 ***
+<ul>{% for post in site.projects reversed %}
+    {%if post.cv %}
+        {% include archive-single-content-cv.html %}
+    {% endif %}
+    {% endfor %}</ul>
 
 <br/>
 
 # <center>Work experience</center>
 ***
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+<ul>{% for post in site.work reversed %}
+        {% include archive-single-content-cv.html %}
+    {% endfor %}</ul>
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+<br/>
 
-Publications
-======
-  <ul>{% for post in site.publications %}
+# <center>Publications</center>
+***
+  <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
+
+<br/>
+
+# <center>Talks</center>
+***
+  <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching %}
+
+<br/>
+
+# <center>Teaching</center>
+***
+  <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
