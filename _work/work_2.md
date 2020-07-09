@@ -1,12 +1,12 @@
 ---
-title: "Research Associate, Shanghai Institute of Ceramics, Chinese Academy of Sciences"
+title: "Mechanical Engineer, XCEL Fence Inc"
 collection: work
-permalink: /work/work_2
+permalink: /work/work_1
 github:
 doi: 
-time: Jun.2016-Sep.2016
+time: May.2018-Aug.2018
 cv: true
 ---
 
-- Prepare high-efficiency perovskite solar cells
-- Test the efficiency of the solar cell and optimize preparation parameters
+- Design self-assembly and durable fence
+- Product & Marketing Research
